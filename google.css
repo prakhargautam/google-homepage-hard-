@@ -1,0 +1,331 @@
+.main
+{
+    position: absolute;
+    top: 180px;
+    width: 550px;
+    margin-left: 120px;
+    height: 722px;
+
+}
+
+
+.headings a
+{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.headings a:hover
+{
+    text-decoration: underline;
+}
+
+.headings
+{
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.urls
+{
+    color: green;
+    margin-top: 0px;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.description
+{
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 18px;
+    color: rgba(0,0,0,0.8)
+}
+
+
+body
+{
+    font-family: arial;
+}
+
+.header
+{
+    width: 100%;
+    height: 70px;
+    background-color: #F2F2F2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid #E4E4E4;
+    
+}
+#icon1,#icon2,#icon3
+{
+    margin-top: 22px;
+    margin-right: 25px;
+    border-bottom: 1px solid #E4E4E4;
+    border-radius: 1px;
+}
+#icon1
+{
+    height:28px;
+    margin-right:0px;
+    width:43px;
+    float:right;
+    background-image: url(icon1.jpg);
+}
+
+#icon2
+{
+    border-right: 1px solid #E4E4E4;
+    margin-right: 15px;
+    height:28px;
+    width:43px;
+    float:right;
+    background-image: url(icon2.jpg);
+}
+#icon3
+{
+    height:28px;
+    width:72px;
+    float:right;
+    background-image: url(icon3.jpg);
+}
+
+.header li
+{
+    font-family: arial;
+    display: inline-block;
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    float:right;
+    margin-right: 10px;
+    margin-top: 12px;
+    
+}
+
+#search_icon
+{
+    background-image: url('search.jpg');
+    height: 38px;
+    width: 40px;
+    float:left;
+    margin-top: 16px;
+    transition: all 0.1s;
+    border-radius: 2px;
+}
+
+#search_icon:hover
+{
+    background-image: url(search2.jpg);
+}
+
+#searchbox
+{
+    position:relative;
+    margin-top: 16px;
+    margin-left: 12px;
+    float:left;
+}
+
+.header input[type="text"]
+{
+    height: 34px;
+    width: 580px;
+    border: 1px solid #E4E4E4;
+    padding-left: 8px;
+}
+
+.header input[type="text"]:hover
+{
+    border-color: darkgray;
+}
+
+#apps
+{
+    background-image: url(apps1.jpg);
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    float:right;
+    top: 0px;
+    right:0px;
+    margin-top: 20px;
+}
+
+#apps:hover
+{
+    background-image: url(apps2.jpg);
+}
+
+#pic
+{
+    height:32px; 
+    width: 32px; 
+    float:right; 
+    background-image: url(mypic.jpg);
+    border-radius: 50%;
+    margin: 18px 18px 10px 10px;
+}
+
+.subheader
+{
+    width: 100%;
+    position:absolute;
+    left:0px;
+    top: 70px;
+    height: 75px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.subheader a:hover
+{
+    color: #000;
+}
+.subheader li:first-child
+{
+    margin-left: 95px;
+}
+
+.subheader li:focus
+{
+    color:red;
+}
+.subheader ul
+{
+    float:left;
+}
+
+.subheader li
+{
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 15px;
+    color: rgba(0,0,0,0.6);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#c1, #c2, #c3, #c4, #c5
+{
+    
+    width: 550px;
+    height: 80px;
+}
+
+#c1
+{
+    position:absolute;
+    top: 0px;
+}
+
+#c2
+{
+    position: absolute;
+    top: 100px;
+}
+
+#c3
+{
+    position: absolute;
+    top: 200px;
+}
+
+#c4
+{
+    position: absolute;
+    top: 300px;
+}
+
+#c5
+{
+    position: absolute;
+    top: 400px;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 37px;
+}
+
+.footer
+{
+    border-top: 1px solid #E4E4E4;
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 95px;
+}
+
+
+.footer li
+{
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 4px;
+}
+.subfooter
+{
+    color: darkblue;
+    height: 100px;
+    position: absolute;
+    top: 520px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.subfooter li 
+{
+    display: block;
+}
+
+.left
+{
+    float:left;
+    margin: 0px;
+    padding-left: 0px;
+}
+.right
+{
+    margin: 0px;
+    float:left;
+    padding-left: 15px;
+}
+
+
+.footer a:hover
+{
+    color: #000;
+}
+
+#notifications
+{
+    height: 30px;
+    width: 30px;
+    float: right;
+    background-image: url(bell%20a.jpg);
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 20px;
+}
+
+#notifications:hover
+{
+    background-image: url(bell%20b.jpg);
+}
+
+#logo
+{
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 110px;
+    height: 50px;
+    background-image: url(logo2.png);
+    background-size: 110px;
+}
